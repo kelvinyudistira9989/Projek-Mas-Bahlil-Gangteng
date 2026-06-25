@@ -1,0 +1,655 @@
+body{
+    font-family:'Segoe UI',sans-serif;
+    }
+    
+    .hero{
+
+        height:100vh;
+        
+        background:
+        linear-gradient(
+        rgba(0, 102, 204, 0.45),
+        rgba(0, 102, 204, 0.45)
+        ),
+        
+        url('https://images.unsplash.com/photo-1498837167922-ddd27525d352');
+        
+        
+        background-size:cover;
+        
+        background-position:center;
+        
+        display:flex;
+        
+        align-items:center;
+        
+        justify-content:center;
+        
+        }
+        
+        
+        /* Tulisan Hero */
+        
+        .hero h1{
+        
+        font-size:60px;
+        
+        font-weight:800;
+        
+        color:white;
+        
+        text-shadow:
+        3px 3px 8px rgba(0,0,0,0.7);
+        
+        }
+        
+        
+        
+        .hero h2{
+        
+        font-size:35px;
+        
+        font-weight:700;
+        
+        color:white;
+        
+        text-shadow:
+        2px 2px 6px rgba(0,0,0,0.8);
+        
+        }
+        
+        
+        
+        .hero p{
+        
+        font-size:20px;
+        
+        color:white;
+        
+        max-width:800px;
+        
+        margin:auto;
+        
+        font-weight:500;
+        
+        text-shadow:
+        2px 2px 5px rgba(0,0,0,0.8);
+        
+        }
+        
+        
+        
+        /* Tombol */
+        
+        .hero .btn{
+        
+        background:#ffc107;
+        
+        color:#222;
+        
+        font-weight:bold;
+        
+        padding:12px 30px;
+        
+        border-radius:10px;
+        
+        box-shadow:
+        0 5px 15px rgba(0,0,0,.3);
+        
+        
+        
+        }
+        .navbar{
+
+            background:#0066cc !important;
+            
+            }
+            
+            
+            .btn-warning{
+            
+            background:#ffc107;
+            
+            border:none;
+            
+            font-weight:bold;
+            
+            }
+            
+            
+            h2{
+            
+            color:#0066cc;
+            
+            font-weight:700;
+            
+            }
+            
+            
+            .card{
+            
+            border-top:5px solid #0099ff;
+            
+            }
+            .navbar{
+
+                background:
+                rgba(0,102,204,0.95) !important;
+                
+                backdrop-filter:blur(5px);
+                
+                }
+    
+    
+    
+    .card{
+    
+    border:none;
+    
+    border-radius:20px;
+    
+    transition:.3s;
+    
+    }
+    
+    
+    .card:hover{
+    
+    transform:translateY(-10px);
+    
+    }
+    
+    
+    .card img{
+    
+    height:220px;
+    
+    object-fit:cover;
+    
+    }
+    
+    
+    footer{
+    
+    margin-top:30px;
+    
+    }
+    .tentang-header{
+
+        height:70vh;
+        
+        margin-top:0;
+        
+        background:
+        
+        linear-gradient(
+        rgba(0,102,204,0.35),
+        rgba(0,102,204,0.35)
+        ),
+        
+        url('https://images.unsplash.com/photo-1498837167922-ddd27525d352');
+        
+        
+        background-size:cover;
+        
+        background-position:center;
+        
+        background-repeat:no-repeat;
+        
+        display:flex;
+        
+        align-items:center;
+        
+        justify-content:center;
+        
+        position:relative;
+        
+        }
+        
+        
+        .tentang-header h1{
+
+            font-size:55px;
+            
+            font-weight:800;
+            
+            color:white;
+            
+            text-align:center;
+            
+            text-shadow:
+            3px 3px 8px rgba(0,0,0,0.8);
+            
+            }
+            
+            
+            .tentang-header p{
+            
+            font-size:24px;
+            
+            color:white;
+            
+            font-weight:500;
+            
+            text-shadow:
+            2px 2px 6px rgba(0,0,0,0.8);
+            
+            }
+        .navbar{
+
+            height:80px;
+            
+            background:#0066cc !important;
+            
+            padding:0;
+            
+            z-index:1000;
+            
+            }
+            .menu-header{
+
+                height:70vh;
+                
+                margin-top:0;
+                
+                background:
+                
+                linear-gradient(
+                rgba(0,102,204,0.35),
+                rgba(0,102,204,0.35)
+                ),
+                
+                url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c');
+                
+                
+                background-size:cover;
+                
+                background-position:center;
+                
+                background-repeat:no-repeat;
+                
+                display:flex;
+                
+                align-items:center;
+                
+                justify-content:center;
+                
+                position:relative;
+                
+                }
+                
+                
+                
+                .menu-header h1{
+                
+                font-size:55px;
+                
+                font-weight:800;
+                
+                color:white;
+                
+                text-shadow:
+                3px 3px 8px rgba(0,0,0,.8);
+                
+                }
+                
+                
+                
+                .menu-header p{
+                
+                font-size:24px;
+                
+                color:white;
+                
+                font-weight:500;
+                
+                text-shadow:
+                2px 2px 6px rgba(0,0,0,.8);
+                
+                }
+            
+            
+            
+            .card img{
+            
+            height:250px;
+            
+            object-fit:cover;
+            
+            }
+            
+            
+            
+            .badge{
+            
+            font-size:15px;
+            
+            padding:10px;
+            
+            }  
+            .manfaat-header{
+
+                height:70vh;
+                
+                margin-top:0;
+                
+                background:
+                
+                linear-gradient(
+                rgba(0,102,204,0.35),
+                rgba(0,102,204,0.35)
+                ),
+                
+                url('https://images.unsplash.com/photo-1509062522246-3755977927d7');
+                
+                
+                background-size:cover;
+                
+                background-position:center;
+                
+                background-repeat:no-repeat;
+                
+                display:flex;
+                
+                align-items:center;
+                
+                justify-content:center;
+                
+                position:relative;
+                
+                }
+                
+                
+                
+                .manfaat-header h1{
+                
+                font-size:55px;
+                
+                font-weight:800;
+                
+                color:white;
+                
+                text-shadow:
+                3px 3px 8px rgba(0,0,0,.8);
+                
+                }
+                
+                
+                
+                .manfaat-header p{
+                
+                font-size:24px;
+                
+                color:white;
+                
+                font-weight:500;
+                
+                text-shadow:
+                2px 2px 6px rgba(0,0,0,.8);
+                
+                }
+                
+                
+                
+                .manfaat-card{
+                
+                border:none;
+                
+                border-radius:20px;
+                
+                height:100%;
+                
+                }
+                
+                
+                
+                .icon{
+                
+                font-size:55px;
+                
+                margin-bottom:20px;
+                
+                }
+                
+                
+                
+                .list-group-item{
+                
+                padding:20px;
+                
+                font-size:17px;
+                
+                }
+                
+                
+                
+                .statistik-mbg{
+                
+                background:#0066cc;
+                
+                padding:60px 0;
+                
+                }
+                
+                
+                
+                .statistik-mbg h1{
+                
+                font-size:50px;
+                
+                }
+                .kontak-header{
+
+                    height:70vh;
+                    
+                    margin-top:0;
+                    
+                    background:
+                    
+                    linear-gradient(
+                    rgba(0,102,204,0.35),
+                    rgba(0,102,204,0.35)
+                    ),
+                    
+                    url('https://images.unsplash.com/photo-1521737711867-e3b97375f902');
+                    
+                    
+                    background-size:cover;
+                    
+                    background-position:center;
+                    
+                    background-repeat:no-repeat;
+                    
+                    display:flex;
+                    
+                    align-items:center;
+                    
+                    justify-content:center;
+                    
+                    position:relative;
+                    
+                    }
+                    
+                    
+                    
+                    .kontak-header h1{
+                    
+                    font-size:55px;
+                    
+                    font-weight:800;
+                    
+                    color:white;
+                    
+                    text-shadow:
+                    3px 3px 8px rgba(0,0,0,.8);
+                    
+                    }
+                    
+                    
+                    
+                    .kontak-header p{
+                    
+                    font-size:24px;
+                    
+                    color:white;
+                    
+                    font-weight:500;
+                    
+                    text-shadow:
+                    2px 2px 6px rgba(0,0,0,.8);
+                    
+                    }
+                    
+                    
+                    
+                    .form-control{
+                    
+                    border-radius:10px;
+                    
+                    padding:12px;
+                    
+                    }
+                    
+                    
+                    
+                    .btn-primary{
+                    
+                    background:#0066cc;
+                    
+                    border:none;
+                    
+                    }
+                    
+                    
+                    
+                    .map-box{
+                    
+                    height:300px;
+                    
+                    background:#e9f3ff;
+                    
+                    border-radius:20px;
+                    
+                    display:flex;
+                    
+                    align-items:center;
+                    
+                    justify-content:center;
+                    
+                    font-size:25px;
+                    
+                    color:#0066cc;
+                    
+                    }
+                 /* NAVBAR */
+
+.navbar{
+    height:80px;
+    background:#0066cc !important;
+    padding:5px 0; 
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+
+/* CONTAINER NAVBAR */
+
+.navbar .container{
+    display:flex;
+    align-items:center;
+}
+
+
+
+/* LOGO NAVBAR */
+
+.logo-mbg{
+
+    width:40px !important;
+
+    height:40px !important;
+
+    max-width:40px;
+
+    max-height:40px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    background:white;
+
+    padding:3px;
+
+}
+
+
+
+.brand-title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+
+.navbar small{
+
+    font-size:11px;
+
+    color:white;
+
+}
+
+
+
+/* MENU NAVBAR */
+
+.navbar-nav{
+
+    align-items:center;
+
+}
+
+
+
+.navbar-nav .nav-link{
+
+    color:white !important;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    margin-left:25px;
+
+    transition:.3s;
+
+}
+
+
+
+.navbar-nav .nav-link:hover{
+
+    color:#ffd700 !important;
+
+}
+
+
+
+/* MENU AKTIF */
+
+.navbar-nav .active{
+
+    color:#ffd700 !important;
+
+    border-bottom:3px solid #ffd700;
+
+}
+.logo-mbg{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+}
